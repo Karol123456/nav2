@@ -11,7 +11,7 @@ justify-content: space-between;
 min-height: 8vh;
 background-color: black;
 font-family: 'Open Sans', sans-serif;
-box-shadow: 2px 2px 12px rgba(0,0,0,0.35);
+box-shadow: 2px 2px 12px rgba(0,0,0,0.45);
 position: fixed;
 width: 100%;
 }
@@ -20,15 +20,15 @@ width: 100%;
 
 .nav-links{
     display: flex;
-    width: 20%;
+    width: 18%;
     justify-content: space-between;
-  
+  margin-right: 8px;
 }
 .logo {
     font-size: 25px;
     color: white;
     font-family: 'Open Sans', sans-serif;
-margin-left: 5px;
+margin-left: 7px;
 }
 
 .nav-links a{
@@ -95,3 +95,35 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
+.content-area{
+    max-height: 943px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.55);
+   
+}
+
+.headernapis {
+    font-weight: 600;
+    font-size: 80px;
+    position: absolute;
+    top: 47%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    right: 44.1%;
+    
+}
+
+.ramka{
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+ font-weight: 300;
+}
+
+.ramka h1{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 45%;
+    font-weight: 900;
+}
